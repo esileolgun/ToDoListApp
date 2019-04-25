@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightGreen"
+    tools:context=".fragments.AddTaskFragment"
+    >
+
+    <TextView
+        android:id="@+id/textViewAddTask"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/Lightgrey"
+        android:text="Görev"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextAddTask"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewAddTask"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Görev Ekle"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonAddTask"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextAddTask"
+        android:background="@color/green"
+        android:text="Listeme Ekle"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
